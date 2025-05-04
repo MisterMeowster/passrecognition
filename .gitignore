@@ -1,13 +1,15 @@
-
+# Игнорировать всё
 *
 
-
+# Разрешаем эти файлы и папки
+!.gitignore
 !scr.py
 !requirements.txt
 !run.bat
 !README.md
 !research.md
-
+!research/
+!research/**
 
 !haarcascades/
 !haarcascades/haarcascade_frontalface_default.xml
@@ -15,11 +17,10 @@
 !tesseract/
 !tesseract/**
 
-
+# Игнорировать окружения и временные файлы
 env/
 .env/
 .venv/
-
 
 __pycache__/
 *.py[cod]
